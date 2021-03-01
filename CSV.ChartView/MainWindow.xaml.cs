@@ -194,27 +194,5 @@ namespace CSV.ChartView
         {
             loadFiles();
         }
-
-        private string getInfoText()
-        {
-            string s = "";
-            s += "Clemens Larkowski\n";
-            s += "c.larkowski@et-h.eu\n";
-            s += "\n\n";
-            s += "Version: 1.0.0\n";
-            s += "\n\n";
-            s += "Entwickelt für DB-Regio\n";
-            s += "ET-Werkstatt\n";
-            s += "Frankfurt am Main";
-
-            return s;
-        }
-
-        private void menu_info_Click(object sender, RoutedEventArgs e)
-        {
-            Info info = new Info();
-            info.SetText(getInfoText());
-            info.Show();
-        }
     }
 }

@@ -6,7 +6,7 @@
         xmlns:d3="http://research.microsoft.com/DynamicDataDisplay/1.0"
         xmlns:local="clr-namespace:CSV.ChartView"
         mc:Ignorable="d"
-        Title="CSV.ChartView" Height="768" Width="1024" Icon="180855.png" WindowStartupLocation="Manual">
+        Title="CSV.ChartView" Height="768" Width="1024" Icon="180855.ico" WindowStartupLocation="Manual">
 
     <Grid x:Name="LayoutRoot" Background="White">
         <Grid.RowDefinitions>
@@ -32,8 +32,7 @@
         <StackPanel VerticalAlignment="Top">
             <Menu Width="Auto" Height="20" HorizontalAlignment="Left">
                 <MenuItem Header="_Menü">
-                    <MenuItem x:Name="menu_load" Header="_Dateien laden" Click="menu_load_Click"/>
-                    <MenuItem x:Name="menu_info" Header="_Info" Click="menu_info_Click"/>
+                    <MenuItem x:Name="menu_load" Header="_Dateien laden" Click="menu_load_Click"/>                    
                     <Separator />
                     <MenuItem x:Name="menu_exit" Header="_Beenden" Click="menu_exit_Click" />
                 </MenuItem>
